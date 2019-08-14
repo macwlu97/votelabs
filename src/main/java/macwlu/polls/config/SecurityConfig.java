@@ -1,5 +1,8 @@
 package macwlu.polls.config;
 
+import macwlu.polls.security.CustomUserDetailsService;
+import macwlu.polls.security.JwtAuthenticationEntryPoint;
+import macwlu.polls.security.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
