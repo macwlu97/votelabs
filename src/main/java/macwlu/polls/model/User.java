@@ -1,5 +1,6 @@
 package macwlu.polls.model;
 
+import macwlu.polls.model.audit.DateAudit;
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;

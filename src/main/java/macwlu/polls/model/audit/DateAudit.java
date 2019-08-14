@@ -1,4 +1,4 @@
-package macwlu.polls.model;
+package macwlu.polls.model.audit;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;
